@@ -1,2 +1,3 @@
 markdown: kramdown
-url: /jekyll_demo
+highlighter: rouge
+baseurl: /jekyll_demo
