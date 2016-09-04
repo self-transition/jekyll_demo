@@ -27,10 +27,10 @@ username: searchpcc
 user:
   email: i@kaizi.in
   github: http://github.com/searchpcc
-  weibo: http://weibo.com/searchpcc
-  twitter: http://twitter.com/searchpcc
-  douban: http://douban.com/people/searchpcc
-  weixin: searchpcc
+  weibo: http://weibo.com/rxy8023
+  twitter: http://twitter.com/rxy8023
+  douban: http://douban.com/people/梦落_
+  weixin: rxy768947378
   desc: 90 后，有轻度的强迫症，有轻度的代码洁癖，喜欢编程并且享受编程。
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
@@ -46,6 +46,6 @@ dev:
   image: /assets/images/
 
 # 选择模式 开发模式还是发布模式。上线之前务必改成pub！
-model: pub
-# model: dev
+# model: pub
+model: dev
 
