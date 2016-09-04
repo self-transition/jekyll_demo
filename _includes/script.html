@@ -1,0 +1,13 @@
+<!--所有脚本文件的引入-->
+{% if site.model == 'pub' %}
+	<script src="{{site.pub.js}}highlight.pack.js"></script>
+	<script src="{{site.pub.js}}jquery.min.js"></script>
+	<script src="{{site.pub.js}}bootstrap.min.js"></script>
+	<script src="{{site.pub.js}}all.js"></script>
+{% else %}
+	<script src="{{ site.dev.js }}highlight.pack.js"></script>
+	<script src="{{ site.dev.js }}jquery.min.js"></script>
+	<script src="{{ site.dev.js }}bootstrap.min.js"></script>
+	<script src="{{ site.dev.js }}all.js"></script>
+{% endif %}
+<script> hljs.initHighlightingOnLoad(); </script>

@@ -1,15 +1,53 @@
 ---
 layout: default
 ---
-<div id="post">
-{{ content }}
-</div>
+<div class="post">
+	<!--文章标题和说明-->
+	<header>
+		<!--文章名称-->
+		<h1 class="post-title">{{ page.title }}</h1>
 
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+		<!--文章描述，时间和分类-->
+		<p class="desc">
+			<i class="fa fa-calendar"></i>
+			{{ page.date | date: "%Y/%m/%d" }} &nbsp;&nbsp;
+			<i class="fa fa-folder-open-o fa-fw"></i>
+			<a href="/category/">{{ page.categories }} </a>
+		</p>
+		<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"><b>（除非另有声明，本网站采用自由转载-非商用-非衍生-保持署名）-转载务必注明出处</b></a>
+	</header>
+
+	<!--文章内容-->
+	<article class="post-content">
+		<br/>
+		{{ content }}
+	</article>
+
+	<!--上下翻页-->
+	<ul class="pager pagination-sm">
+		<!--前一页-->
+		{% if page.previous %}
+		<li class="previous">
+			<a href="{{ site.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
+		</li>
+		{% else %}
+		<li class="previous disabled">
+			<a>&larr; Previous</a>
+		</li>
+		{% endif %}
+
+		<!--下一页-->
+		{% if page.next %}
+		<li class="next">
+			<a href="{{ site.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
+		</li>
+		{% else %}
+		<li class="next disabled">
+			<a>Next &rarr;</a>
+		</li>
+		{% endif %}
+	</ul>
+	<!--引入评论-->
+	{% include extends/duoshuo.html %}
 </div>

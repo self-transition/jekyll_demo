@@ -1,0 +1,31 @@
+<header>
+	<!--导航菜单-->
+	<nav class="navbar header navbar-fixed-top">
+		<div class="container-fluid">
+			<span class="navbar-brand"><a href="/">
+				{% if site.model == 'pub' %}
+					<img id="headerimg" src="{{ site.pub.image }}header.jpeg"></a>
+				{% else %}
+					<img id="headerimg" src="{{ site.dev.image }}header.jpeg"></a>
+				{% endif %}
+			</span>
+			<div class="navbar-header">
+				<button type="button" class ="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.home }}</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/archive/">归档</a></li>
+					<li><a href="/category/">分类</a></li>
+					<li><a href="/about/">关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav><!-- 导航菜单结束-->
+</header>
+
