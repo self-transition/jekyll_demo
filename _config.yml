@@ -1,10 +1,10 @@
 title: searchpcc - Keep Calm and Carry On 
 home: searchpcc
 paginate: 8
-email: i@searchp.cc
-production_url: http://searchp.cc
+email: i@kaizi.in
+production_url: http://kaizi.in
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://searchp.cc" # the base hostname & protocol for your site
+url: "http://kaizi.in" # the base hostname & protocol for your site
 permalink: /:year:month:day.html
 
 # Build settings
@@ -20,12 +20,12 @@ kramdown:
   auto_id_prefix: 'cc-'
 
 # 网站描述
-description:  一个 90 后的个人网站。 IT，php，Java，Python 等等。邮箱：i@searchp.cc
+description:  一个 90 后的个人网站。 IT，php，Java，Python 等等。邮箱：i@kaizi.in
 # 用户名，用来显示自己相关网络账号信息的。about.md之中。
 username: searchpcc
 
 user:
-  email: i@searchp.cc
+  email: i@kaizi.in
   github: http://github.com/searchpcc
   weibo: http://weibo.com/searchpcc
   twitter: http://twitter.com/searchpcc
