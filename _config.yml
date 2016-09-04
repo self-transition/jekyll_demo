@@ -1,5 +1,5 @@
-title: searchpcc - Keep Calm and Carry On 
-home: searchpcc
+title: rxy8023 - Keep Calm and Carry On 
+home: rxy8023
 paginate: 8
 email: i@kaizi.in
 production_url: http://kaizi.in
@@ -22,11 +22,11 @@ kramdown:
 # 网站描述
 description:  一个 90 后的个人网站。 IT，php，Java，Python 等等。邮箱：i@kaizi.in
 # 用户名，用来显示自己相关网络账号信息的。about.md之中。
-username: searchpcc
+username: rxy8023
 
 user:
   email: i@kaizi.in
-  github: http://github.com/searchpcc
+  github: http://github.com/rxy8023
   weibo: http://weibo.com/rxy8023
   twitter: http://twitter.com/rxy8023
   douban: http://douban.com/people/梦落_
