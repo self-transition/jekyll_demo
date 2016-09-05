@@ -35,9 +35,9 @@ user:
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
 pub:
-  css: http://7xjddt.com1.z0.glb.clouddn.com/
-  js: http://7xjddx.com1.z0.glb.clouddn.com/
-  image: http://7xjddm.com1.z0.glb.clouddn.com/
+  css: http://oczif2lu5.bkt.clouddn.com/
+  js: http://oczif2lu5.bkt.clouddn.com/
+  image: http://oczif2lu5.bkt.clouddn.com/
 
 # 这里是本地的静态资源存放的路径
 dev:
@@ -46,6 +46,6 @@ dev:
   image: /assets/images/
 
 # 选择模式 开发模式还是发布模式。上线之前务必改成pub！
-# model: pub
-model: dev
+model: pub
+# model: dev
 
