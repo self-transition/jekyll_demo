@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  一个用DOM简写轻量级jQuery库
 categories: tools
